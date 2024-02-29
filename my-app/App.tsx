@@ -1,10 +1,8 @@
 import {StatusBar} from 'expo-status-bar';
 import {Platform, SafeAreaView, StyleSheet, Text} from 'react-native';
-import Home from './src/views/home';
-import { NavigationContainer } from '@react-navigation/native';
-import { createStackNavigator } from '@react-navigation/stack';
+import React from 'react';
+import {NavigationContainer} from '@react-navigation/native';
 
-const Stack = createStackNavigator();
 
 const App = () => {
   console.log('moro');
